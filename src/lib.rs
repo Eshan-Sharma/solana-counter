@@ -1,5 +1,5 @@
 use borsh::{BorshDeserialize, BorshSerialize};
-use borsh_derive::{BorshDeserialize, BorshSerialize};
+//use borsh_derive::BorshSerialize;
 use solana_program::{
     account_info::{next_account_info, AccountInfo},
     entrypoint,
